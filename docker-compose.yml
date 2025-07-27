@@ -37,7 +37,7 @@ services:
       db:
         condition: service_healthy
     command: >
-      sh -c "python manage.py migrate && python manage.py makemigrations && python manage.py migrate && gunicorn fileupload.wsgi:application --bind 0.0.0.0:8000 --workers 3"
+      sh -c "python manage.py makemigrations && python manage.py migrate && gunicorn fileupload.wsgi:application --bind 0.0.0.0:8000 --workers 3"
 
   nginx:
     image: nginx:alpine
