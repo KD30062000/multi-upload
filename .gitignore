@@ -50,6 +50,8 @@ media/
 # AWS CLI / credentials
 .aws/
 
+*.pem
+
 # Docker volumes, sockets, and PIDs
 *.sock
 *.pid
