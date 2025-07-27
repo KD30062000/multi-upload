@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY', default='replace-this-in-production')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='*').split(',')
-ALLOWED_HOSTS = ['18.298.57.254', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['18.209.57.248', 'localhost', '127.0.0.1']
 
 
 
