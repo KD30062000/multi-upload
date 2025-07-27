@@ -1,0 +1,37 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+venv/
+env/
+
+# Environment config
+.env
+
+# Git-related
+.git/
+.gitignore
+
+# Local OS/IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Node (if not needed in backend image)
+node_modules/
+build/
+dist/
+
+# Logs & db
+*.log
+*.sqlite3
+
+# Docker runtime files
+*.sock
+*.pid
+
+# Custom dev scripts
+req_file.py

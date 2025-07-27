@@ -1,0 +1,58 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenv
+venv/
+env/
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Django DB
+*.sqlite3
+
+# Environment variables
+.env
+
+# Logs and temp files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pid
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Compiled frontend files (if using React/Vite/etc.)
+node_modules/
+build/
+dist/
+
+# Static/media collected output (optional)
+staticfiles/
+media/
+
+# Git-related
+*.orig
+*.swp
+
+# AWS CLI / credentials
+.aws/
+
+# Docker volumes, sockets, and PIDs
+*.sock
+*.pid
+
+# Custom utility or test scripts
+req_file.py
